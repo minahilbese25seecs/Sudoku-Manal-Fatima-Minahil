@@ -1,5 +1,5 @@
-# Sadoku Game
-this repository contains the all the details required for the making a sadoku game that you can play on a variety of difficulties.<br>
+# Sudoku Game
+this repository contains the all the details required for the making a sudoku game that you can play on a variety of difficulties.<br>
 <br>**Title and Team Information**:<br>
 Title:  Sudoku Game, Checker, and Solver<br>
 <br>**Team Members**:<br>
@@ -7,37 +7,33 @@ Manal Faisal: Programmer 1/Team Leader <br>
 Fatima Faizan: Programmer 2<br>
 Minahil Tahir: Git manager/Tester<br>
 <br>**Overview/Programme Description**:<br>
-This code is of a sadoku game.What makes our code different from other sadoku codes is that we offer our users a variety of difficulties to choose from to give them a sense of freedom.Apart from that, we have also introduced a timer to make it even more challenging and realistic.A score board will be displayed at the end of the game which will determine whether you won or lost.<br>
+This code is of a sudoku game.What makes our code different from other sadoku codes is that we offer our users a variety of difficulties to choose from with a colorful display to give them a sense of freedom.A score board will be displayed at the end of the game which will determine whether you won or lost.<br>
 <br>**Programme/Logic Design**:<br>
-Functions Implemented:<br>
-1. <ins>2D arrays<\ins> have been used to make 9 3x3 grids.<br>
-column check rows check box check to check if 3x3 grid to check solution.
+1. The user is first asked the difficulty of the game.
+   >the number of grids filled depends on the level of the difficulty that the user chooses.<br>
+2. <ins>2D arrays</ins> have been used to make 9 3x3 grids.<br>
 2. User is asked the position of the number they want to place by x-y coordinates.<br>
-3. The numbers during the start of the sadoku game have been hard-coded.
-4. Back-tracking through recurrsion has been used to form a solver function that will continously retrace the previous steps to ensure that each box in the grid meets the given conditions and will auto-fill the boxes with appropiate digits.<br>
-5. Scoring has been handled by increments.<br>
-
-
-
-
+3. The player is asked if he/she wishes to continue the game.If he chooses not to,a solved solution will be displayed.<br>
+4. If the player chooses to continue, they will continue to fill the appropiate boxes with the number they wish.<br>
+5. A clue function has been made using for loops where if a user wantsa a specific mxn grid to be filled, they can do so to make the game eaiser.But, by doing so, the score will decrease.<br>
+6. <ins>Back-tracking</ins> through recurrsion has been used to form a solver function that will continously retrace the previous steps to ensure that each box in the grid meets the given conditions and will auto-fill the boxes with appropiate digits.<br>
+7. Scoring has been handled by increments and decrements.<br>
+ >  +10 points for each correct placement.<br>
+ >  −5 for an invalid move.<br>
+ >  −10 for each hint.<br>
+ >  −20 if the full solution is requested.<br>
+8. Different color codes have been used to make it more appealing to the user.<br>
 
 
 <br>**Execution Instructions**:<br>
 The code has been designed and tested on **Visual Studio/Visual Studio Code** compiler.<br>
 >The code might fail to run on online compilers due the complexity between these two compilers.One compiler might be able to debug something successfully while the other compiler fails to do so.<br>
-
-<br>1. Firstly, the user is going to enter the game where some of the 3x3 grid boxes will be filled by random numbers.<br>
-2. The user can enter the position and the number they choose to place it at the specified place.<br>
-3. Play the game as usual.<br>
-
-
-
-
-
-
-
-
-4. If the user wants, he/she will be given the solved solution of the specific sadoku board.<br>
+   1. Choose the difficulty of the game.<br>
+   2. A sudoku board will be displayed in front of you.Now you can choose the x and y coordinates of the number you        wish to place in that board.<br>
+   3. Your points will be displayed side by side, At some point you will be asked if you wish to continue or not, if       you choose not to then the solved board will be displayed.<br>
+   4. If you choose to continue, play the game as usual and if you feel stuck, you can ask for a clue(a box of your        choice  will be automatically filled with the correct value).<br>
+   5. In the end, your score will be displayed and the sudoku board with correct values will be displayed.<br>
+   
 
 
 
@@ -45,14 +41,15 @@ The code has been designed and tested on **Visual Studio/Visual Studio Code** co
 <br>Manal Faisal: 
          This team member is essential for rechecking the code and adding additional features to it in order to keep it updated.Has worked with other team members ot ensure all team members are on the same page regarding the code.<br>
 <br>Fatima Faizan: Responsible for coding the base of the sadoku game inclduing 3x3 grids and hard-coding the numbers which will be displayed once the user starts playing.<br>
+
 <br>Minahil Tahir: Responsible for maintaining a structured README.md file on github including other git files.Moreover,this team member handles <iformation of flowchart of functions for this particular assignment along with testing possible outcomes of the code formed by the team.Has commited flowchart document on this repository.<br>
 
 
 <br>**Ai Tool Reflection**:<br>
 Ai used: ChatGPT<br>
-Reason: ChatGPT has been used by my team to generate the sadoku board containing playable values.<br>
+Reason: ChatGPT has been used by my team to generate the sudoku board containing playable values.<br>
 <br>-No Ai was used for documentation.<br>
-<br>-No Ai was used for brain-storming ideas for the sadoku game.<br>
+<br>-No Ai was used for brain-storming ideas for the sudoku game.<br>
 
 
 <br>**Future Improvements**:<br>

@@ -41,6 +41,7 @@ The code has been designed and tested on **Visual Studio/Visual Studio Code** co
 <br>Manal Faisal: 
          This team member is essential for rechecking the code and adding additional features to it in order to keep it updated.Has worked with other team members ot ensure all team members are on the same page regarding the code.<br>
 <br>Fatima Faizan: Responsible for coding the base of the sadoku game inclduing 3x3 grids and hard-coding the numbers which will be displayed once the user starts playing.<br>
+<img width="881" height="60" alt="Image" src="https://github.com/user-attachments/assets/fb8a7671-0ab6-48c1-a887-3de6d9b295d4" /><br>
 
 <br>Minahil Tahir: Responsible for maintaining a structured README.md file on github including other git files.Moreover,this team member handles <iformation of flowchart of functions for this particular assignment along with testing possible outcomes of the code formed by the team.Has commited flowchart document on this repository.<br>
 

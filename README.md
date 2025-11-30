@@ -15,12 +15,12 @@ This code is of a sudoku game.What makes our code different from other sadoku co
 2. User is asked the position of the number they want to place by x-y coordinates.<br>
 3. The player is asked if he/she wishes to continue the game.If he chooses not to,a solved solution will be displayed.<br>
 4. If the player chooses to continue, they will continue to fill the appropiate boxes with the number they wish.<br>
-5. A clue function has been made using for loops where if a user wantsa a specific mxn grid to be filled, they can do so to make the game eaiser.But, by doing so, the score will decrease.<br>
+5. The user is also given an option to remove a digit from any grid, acting as a sort of help but with consequences.<br>
 6. <ins>Back-tracking</ins> through recurrsion has been used to form a solver function that will continously retrace the previous steps to ensure that each box in the grid meets the given conditions and will auto-fill the boxes with appropiate digits.<br>
 7. Scoring has been handled by increments and decrements.<br>
- >  +10 points for each correct placement.<br>
- >  −5 for an invalid move.<br>
- >  −10 for each hint.<br>
+ >  Total points are 100.<br>
+ >  −5 for removing a digit..<br>
+ >  −10 for each invalid move.<br>
  >  −20 if the full solution is requested.<br>
 8. Different color codes have been used to make it more appealing to the user.<br>
 
@@ -57,7 +57,7 @@ Reason: ChatGPT has been used by my team to generate the sudoku board containing
 
 <br>**Future Improvements**:<br>
 Things that could have been improved are:<br>
-1. OOP(object orienting programming) would have also been useful as the code would have been easier.Each object would have had its own blueprint(instructions).<br>
+1. <ins>OOP(object orienting programming)</ins> would have also been useful as the code would have been easier.Each object would have had its own blueprint(instructions).<br>
 
 2. The use of databases would have also offered a lot of user-friendly options like saving your progress, saving your initial score that you can later beat, storing hints in a database and many more.<br>
 
